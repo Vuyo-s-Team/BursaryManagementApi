@@ -4,8 +4,8 @@ CREATE TABLE [dbo].[UniversityFundApplication](
     [FundingYear] [date] NOT NULL,
     [Amount] [money] NOT NULL,
     [Comment] [varchar](255)NOT NULL,
-    [UniversityID] [int] REFERENCES University(UniversityID),
-    [StatusID] [int] REFERENCES Status(StatusID)
+    [UniversityID] [int] NOT NULL,
+    [StatusID] [int] NOT NULL
 );
 
 GO
