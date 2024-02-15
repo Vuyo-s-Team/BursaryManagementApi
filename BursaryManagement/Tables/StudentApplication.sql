@@ -5,9 +5,9 @@ CREATE TABLE [dbo].[StudentApplication](
     [Amount] [money] NOT NULL,
     [DateOfApplication] [date] NOT NULL,
     [Comment] [varchar](255)NOT NULL,
-    [StudentID] [int] REFERENCES Student(StudentID),
-    [ProgramID] [int] REFERENCES Program(ProgramID),
-    [StatusID] [int] REFERENCES Status(StatusID)
+    [StudentID] [int] NOT NULL,
+    [ProgramID] [int] NOT NULL,
+    [StatusID] [int] NOT NULL
 
 );
 
