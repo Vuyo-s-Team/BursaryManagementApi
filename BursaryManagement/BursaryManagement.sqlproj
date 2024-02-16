@@ -9,6 +9,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Constraints" />
+    <Folder Include="Procedures" />
     <Folder Include="Tables" />
   </ItemGroup>
   <ItemGroup>
