@@ -1,3 +1,5 @@
+Use UkukhulaBursaryDB
+Go
 CREATE TABLE [dbo].[UniversityYearlyFundAllocation]
 (
   [UniversityFundID] [int] NOT NULL IDENTITY(1,1) PRIMARY KEY,
