@@ -8,10 +8,14 @@
     <ModelCollation>1033, CI</ModelCollation>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="Constraints" />
     <Folder Include="Tables" />
   </ItemGroup>
   <ItemGroup>
     <PreDeploy Include="create_database.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Constraints\University.sql" />
   </ItemGroup>
   <Target Name="BeforeBuild">
     <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />
