@@ -3,7 +3,7 @@ CREATE TABLE [dbo].[StudentYearlyFundAllocation](
     [Budget] [money] NOT NULL,
     [FinancialYearStart] [date] NOT NULL,
     [UniversityFundID] [int] NOT NULL,
-    [StudentFundID] [int] NOT NULL
+    [StudentID] [int] NOT NULL
 );
 
 GO
