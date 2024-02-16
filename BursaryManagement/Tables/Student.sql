@@ -1,3 +1,6 @@
+Use UkukhulaBursaryDB
+Go
+
 CREATE TABLE [dbo].[Student](
     [StudentID] [int] IDENTITY(1,1) PRIMARY KEY NOT NULL,
     [IDNumber] [varchar](13) NOT NULL,

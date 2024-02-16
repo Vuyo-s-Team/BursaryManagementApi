@@ -1,4 +1,6 @@
 --Creating UniversityFundApplication table
+Use UkukhulaBursaryDB
+Go
 CREATE TABLE [dbo].[UniversityFundApplication](
     [ApplicationID] [int] IDENTITY(1, 1) PRIMARY KEY NOT NULL,
     [FundingYear] [date] NOT NULL,
