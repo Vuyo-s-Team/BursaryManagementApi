@@ -15,6 +15,7 @@
     <PreDeploy Include="create_database.sql" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Constraints\StudentYearlyFundAllocation.sql" />
     <PostDeploy Include="Constraints\University.sql" />
   </ItemGroup>
   <Target Name="BeforeBuild">
