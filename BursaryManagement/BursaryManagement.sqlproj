@@ -10,10 +10,9 @@
   <ItemGroup>
     <Folder Include="Constraints" />
     <Folder Include="Procedures" />
-
     <Folder Include="Table Valued Function" />
-
     <Folder Include="Tables" />
+    <Folder Include="Views" />
   </ItemGroup>
   <ItemGroup>
     <PreDeploy Include="create_database.sql" />
