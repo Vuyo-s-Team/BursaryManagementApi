@@ -4,4 +4,5 @@ AS
     RETURN SELECT University.[UniversityID], University.[Name], University.[ProvinceID] FROM [dbo].[University] University 
            INNER JOIN [dbo].[UniversityFundApplication] UniversityFundApplication
            ON University.UniversityID = UniversityFundApplication.UniversityID
+           WHERE UniversityFundApplication.StatusId = @StatusId
 GO
